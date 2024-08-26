@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="icon" href="/assets/images/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Antonio Carlos Doná">
+    <meta name="description" content="HTML modelo semântico">
+    <meta name="keywords" content="HTML5, JavaScript, CSS3">
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="Visual Studio Code">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <!-- Style css interno se precisar -->
+    <style type="text/css"></style>
+
+    <title>ACD Modelo HTML 2024 Semântico</title>
+
+</head>
+
+<body> <!--Dentro do body vão o header, o main e o footer não principal  -->
+
+    <!--HEADER-->
+    <header class="main_header">
+        <div class="main_header_content">
+            <div class="main_header_logo">
+                <a href="#" class="logo">
+                    <img src="_img/logo.png" alt="Bem vindo ao projeto ..."
+                    title="Bem vindo ao projeto ...">
+                </a>
+            </div>
+            <nav class="main_header_nav">                
+                <div class="main_header_nav_menu">                    
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">A Escola</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--CONTENT-->
+    <main class="main_content">
+
+        <!-- conteúdo da página -->
+        <!--FEATURED--> <!-- Destaque -->
+        <article class="home_featured">
+            <div class="home_featured_content">
+                <header class="home_featured_header">
+                    <h1>Seus destaque da página</h1>
+                    <p>Um parágrafo com uma breve descrição da página!"</p>
+                    <p><span class="home_featured_btn">Criar minha conta...</span></p>
+                    <p class="features">Rápido | Simples | Gratuito</p>
+                </header>
+            </div>
+
+            <div class="home_featured_app">
+                <img src="/assets/images/home-featured.jpg" alt="imagem" title="imagem" />
+            </div>
+        </article>
+
+        <!--FEATURES--> <!-- Características -->
+        <div class="home_features">
+            <section class="home_features_content">
+                <header class="home_features_header">
+                    <h2>O que você pode fazer com ....?</h2>
+                    <p>São 3 passos simples para você começar a controlar .... É tudo muito fácil, veja:</p>
+                </header>
+
+                <div class="home_features_articles">
+                    <article class="">
+                        <header>
+                            <img src="/assets/images/home-app.jpg" alt="imagem" title="título imagem" />
+                            <h3>instruções 1</h3>
+                            <p>Explicação do que pode ser feito!1</p>
+                        </header>
+                    </article>
+
+                    <article class="">
+                        <header>
+                            <img src="/assets/images/home-app.jpg" alt="imagem" title="título imagem" />
+                            <h3>instruções 2</h3>
+                            <p>Explicação do que pode ser feito!2</p>
+                        </header>
+                    </article>
+
+                    <article class="">
+                        <header>
+                            <img src="/assets/images/home-app.jpg" alt="imagem" title="título imagem" />
+                            <h3>instruções 3</h3>
+                            <p>Explicação do que pode ser feito!3</p>
+                        </header>
+                    </article>
+
+                </div>
+            </section>
+        </div>
+
+        <!--OPTIN--> <!-- Em marketing é um termo usado para se referir a uma forma de obter informações do usuário -->
+        <article class="home_optin">
+            <div class="home_optin_content">
+                <header class="home_optin_content_flex">
+                    <h2>Cadastre-se no ... e comece a controlar ... hoje mesmo</h2>
+                    <p>R.... é uma tarefa comum do dia a dia, o ... é um gerenciador de ...,
+                        fácil e gratuito para ajudar você nessa tarefa.</p>
+                    <p>Com ele você..., cria ...s e conta com automações e relatórios poderosos
+                        que controlam tudo enquanto você...</p>
+                    <p>Pronto para começar a controlar?</p>
+                </header>
+
+                <div class="home_optin_content_flex">
+                    <span class="icon"></span>
+                    <h4>Crie sua conta gratuitamente:</h4>
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <div class="">
+
+                        </div>
+
+                        <input type="text" name="first_name" placeholder="Primeiro nome:" />
+                        <input type="text" name="last_name" placeholder="Último nome:" />
+                        <input type="email" name="email" placeholder="Melhor e-mail:" />
+                        <input type="password" name="password" autocomplete placeholder="Senha de acesso:" />
+                        <button class="">Criar minha conta</button>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <!--VIDEO-->
+        <article class="home_video">
+            <div class="home_video_content">
+                <header>
+                    <h2>Descubra o ....</h2>
+                    <span class="">alguma mensagem</span>
+                </header>
+            </div>
+
+            <div class="home_video_modal">
+                <div class="home_video_modal_box">
+                    <div class="embed">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/Bu41xfGtfuI?si=82mMgkaHHIAITjLQ?rel=0&amp;showinfo=0"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!--BLOG-->
+
+        <div class="main_blog_empty">
+            <div class="empty_content">
+                <img class="empty_content_cover" title="Empty Content" alt="Empty Content" src="/assets/images/home_control.jpg" />
+                <h3 class="empty_content_title">Estamos trabalhando aqui</h3>
+                <p class="empty_content_desc">Em breve você terá dicas e sacadas sobre ... :)</p>
+            </div>
+        </div>
+
+        <section class="main_blog">
+            <div class="main_blog_content">
+                <header class="main_blog_header">
+                    <h2>Nossos artigos</h2>
+                    <p>Confira nossas dicas para ......</p>
+                </header>
+
+                <div class="main_blog_articles">
+                    <div>Posts.............</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--OPTOUT-->
+    <article class="footer_optout">
+        <div class="footer_optout_content">
+            <span class="icon"></span>
+            <h2>Comece a controlar .... agora mesmo</h2>
+            <p>É rápido, simples e gratuito!</p>
+            <a href="#cadastrar" class="footer_optout_btn">Quero controlar</a>
+        </div>
+    </article>
+
+    <!--FOOTER-->
+    <footer class="main_footer">
+        
+            <section class="main_footer_content">
+                <article class="main_footer_content_item">
+                    <h2>Sobre:</h2>
+                    <p>O ACD<b>....</b> é um gerenciador ... simples, poderoso e gratuito. O prazer de anotar suas ...
+                        num mesmo local e consultá-las facilmente!</p>
+                    <a title="Termos de uso" href="#termos">Termos de uso</a>
+                </article>
+
+                <article class="main_footer_content_item">
+                    <h2>Mais:</h2>
+                    <a class="link transition radius" title="Home" href="">Início</a>
+                    <a class="link transition radius" title="Sobre" href="">Sobre</a>
+                    <a class="link transition radius" title="Blog" href="">Blog</a>
+                    <a class="link transition radius" title="Contato" href="">Contato</a>
+                    <a class="link transition radius" title="Entrar" href="">Entrar</a>
+
+                </article>
+
+                <article class="main_footer_content_item">
+                    <h2>Contato:</h2>
+                    <p class="icon-phone"><b>Telefone:</b><br>(19)999999999</p>
+                    <p class="icon-envelope"><b>Email:</b><br> email@email.com</p>
+                    <p class="icon-map-marker"><b>Endereço:</b><br> Rua Cais, 333</p>
+                </article>
+
+                <article class="main_footer_content_item">
+                    <h2>Social:</h2>
+                    <a target="_blank" class="icon-facebook" href="https://www.facebook.com/#"
+                        title="ACD... no Facebook">/#</a>
+                    <a target="_blank" class="icon-instagram" href="https://www.instagram.com/#>"
+                        title="ACD... no Instagram">@#</a>
+                    <a target="_blank" class="icon-youtube" href="https://www.youtube.com/#"
+                        title="ACD... no YouTube">/#</a>
+                    <a target="_blank" class="icon-twitter" href="https://twitter.com/#"
+                        title="ACD... no Twitter">/#</a>
+                </article>
+            </section>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
